@@ -1,0 +1,96 @@
+.wrap {
+	width: 100%;
+}
+.homeBanner {
+	width: 100%; overflow: hidden;
+}
+.homeBanner .homeBannerIn {
+	left: 50%; width: 1920px; height: 630px; text-align: center; overflow: hidden; margin-left: -960px; position: relative;
+}
+.homeBanner .homeBannerIn .hbImg {
+	width: 1920px;
+}
+.homeBanner .homeBannerIn .hbImg li {
+	text-align: center; vertical-align: middle; position: relative;
+}
+.homeBanner .homeBannerIn .hbImg li img { 
+	
+}
+.homeBanner .homeBannerIn .hbButton {
+	left: 900px; width: 300px; bottom: 50px; position: absolute; z-index: 999;
+}
+.homeBanner .homeBannerIn .hbButton ul {
+	overflow: hidden; -ms-zoom: 1;
+}
+.homeBanner .homeBannerIn .hbButton ul li {
+	border-radius: 1rem; border: 0.1rem solid rgb(255, 255, 255); border-image: none; width: 1rem; height: 1rem; color: rgb(255, 255, 255); line-height: 80px; font-size: 1px; margin-left: 0.8rem; float: left; cursor: pointer; -webkit-text-size-adjust: none;
+}
+.homeBanner .homeBannerIn .hbButton ul li.on {
+	background: rgb(255, 255, 255);
+}
+.homeBanner1 {
+	display: none;
+}
+* {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+html {
+	background: rgb(255, 255, 255); color: rgb(34, 34, 34); font-family: "Microsoft Yahei","΢���ź�",Tahoma,Arial,Helvetica,STHeiti; font-size: 10px;
+}
+body {
+	background: rgb(255, 255, 255); color: rgb(34, 34, 34); font-family: "Microsoft Yahei","΢���ź�",Tahoma,Arial,Helvetica,STHeiti; font-size: 10px;
+}
+dl {
+	list-style: none;
+}
+dt {
+	list-style: none;
+}
+dd {
+	list-style: none;
+}
+ul {
+	list-style: none;
+}
+ol {
+	list-style: none;
+}
+li {
+	list-style: none;
+}
+h1 {
+	font-size: 1.6em; font-weight: normal;
+}
+h2 {
+	font-size: 1.6em; font-weight: normal;
+}
+h3 {
+	font-size: 1.6em; font-weight: normal;
+}
+h4 {
+	font-size: 1.6em; font-weight: normal;
+}
+h5 {
+	font-size: 1.6em; font-weight: normal;
+}
+h5 {
+	font-size: 1.6em; font-weight: normal;
+}
+img {
+	border: 0px currentColor; border-image: none;
+}
+a {
+	text-decoration: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+i {
+	font-style: normal;
+}
+em {
+	font-style: normal;
+}
+strong {
+	font-weight: normal;
+}
+hr {
+	border-width: medium medium 1px; border-style: none none solid; border-color: currentColor currentColor rgb(198, 198, 198); margin: 30px 0px; border-image: none;
+}
