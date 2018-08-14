@@ -5,8 +5,11 @@
 <link href="css/lrtk.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/lrtk.js"></script>
+<script src="js/touch-slide.js"></script>
+<script src="js/custom.js"></script>
 </head>
 <body>
+	<div id="body">
 <div class="slide-main" id="touchMain">
 	<a class="prev" javascript:; stat="prev1001"><img src="images/l-btn.png" /></a>
 	<div class="slide-box" id="slideContent">
@@ -30,40 +33,374 @@
 		<a class="cur" stat="item1001" href="javascript:;"></a><a href="javascript:;" stat="item1002"></a><a href="javascript:;" stat="item1003"></a>
     </div>
 </div>
-<div class="daohangdi">
-<div class="daohang">
-	<img src="images/float-left.png">
-</div>
-<dl>
-<dd>
-	<a href="file:///C:/Users/admin/Desktop/实例1/index.html">HOME</a>
-</dd>
-<dd>
-	<a href="http://yish-design.com/index.html#about">ABOUT US</a>
-</dd>
-<dd>
-	<a href="http://yish-design.com/work.html">WORK</a>
-</dd>
-<dd>
-	<a href="http://yish-design.com/index.html#clients">CLIENTS</a>
-</dd>
-<dd>
-	<a href="http://yish-design.com/index.html#contact">CONTACT</a>
-</dd>
-</dl>
-</div>
-<div class="abus">
-	<h1>ABOUT US</h1>
-</div>
-<div class="dikuang" id="dikuang2">
-	<div class="hd">
-     <ul>
-		 <li class="on">TEAM</li>
-		 <li class="">VALUE</li>
-		 <li class="">SERVICES</li>
-	 </ul>
+<DIV class="menu" id="menu">
+	<DIV class="menuIn">
+	<H1><IMG src="images/float-left.png"></H1>
+	<H2>YISH DESIGN</H2>
+	<H3><IMG src="images/menu_icon.png"></H3>
+	<DL>
+	  <DD><A href="file:///C:/Users/admin/Desktop/demo/index.html">HOME</A></DD>
+	  <DD><A href="file:///C:/Users/admin/Desktop/demo/index.html#about">ABOUT US</A></DD>
+	  <DD><A href="file:///C:/Users/admin/Desktop/demo/index.html#work">WORK</A></DD>
+	  <DD><A href="file:///C:/Users/admin/Desktop/demo/index.html#clients">CLIENTS</A></DD>
+	  <DD><A href="file:///C:/Users/admin/Desktop/demo/index.html#clients">CONTACT</A></DD></DL></DIV></DIV>
+	<div class="homeAbout">
+		<h1 class="hTitle"><a name="about">ABOUT US</a></h1>
+		<div class="homeAboutIn" id="homeAbout">
+		<div class="hd">
+		<ul>
+			<li>VALUE</li>
+			<li class="on">TEAM</li>
+			<li>SERVICES</li></ul></div>
+		<div class="tempWrap" style="overflow:hidden; position:relative;"><div class="bd" id="homeAboutBd" style="margin: 0px; padding: 0px; width: 9515px; overflow: hidden; position: relative; transform: translate(-5709px, 0px) translateZ(0px); transition-duration: 0ms;">
+		<div class="haServices" style="width: 1903px; vertical-align: top; display: table-cell;">
+		<ul>
+			<li>
+			<dl>
+				<dt>
+				<h4>品牌形象设计					 </h4>
+				<p>Brand Design					 </p></dt>
+				<dd>
+				<p>						LOGO设计					 </p>
+				<p>						品牌（企业）VI					 </p>
+				<p>媒体广告					 </p></dd></dl></li>
+			<li>
+			<dl>
+				<dt>
+				<h4>UI设计					 </h4>
+				<p>UI Design					 </p></dt>
+				<dd>
+				<p>网页界面设计					 </p>
+				<p>APP界面设计					 </p>
+				<p>						交互行为设计					 </p></dd></dl></li>
+			<li>
+			<dl>
+				<dt>
+				<h4>						包装设计					 </h4>
+				<p>Package Design					 </p></dt>
+				<dd>
+				<p>包装视觉设计					 </p>
+				<p>						包装结构设计					 </p>
+				<p>						包装创意					 </p></dd></dl></li>
+			<li>
+			<dl>
+				<dt>
+				<h4>						编排设计					 </h4>
+				<p>Layout Design					 </p></dt>
+				<dd>
+				<p>画册、单页、折页设计					 </p>
+				<p>						杂志、书籍排版及印刷					 </p>
+				<p>						工艺					 </p></dd></dl></li></ul>
+		<h1>		我们专注于视觉设计，专为品牌或企业提供相关视觉设计服务。	 </h1>
+		<h2>We specialize in visual design , brand, or specifically for enterprises to 
+		provide relevant visual design services.	 </h2></div><div class="haTeam" style="width: 1903px; vertical-align: top; display: table-cell;">
+		<dl>
+			<dd>
+			<h3 style="display: block;"><img src="images/20160628070933_52563.png"> 			</h3>
+			<h4 style="display: none;"><img src="images/20160628070954_98593.png"> 
+									</h4><strong>VAN</strong>
+			<p>设计总监			 </p></dd>
+			<dd>
+			<h3 style="display: block;"><img src="images/20160628071009_70625.png"> 			</h3>
+			<h4 style="display: none;"><img src="images/20160628071017_58158.png"> 
+									</h4><strong>ASH</strong>
+			<p>美术指导			 </p></dd></dl>
+		<dl>
+			<dd>
+			<h3><img src="images/20160628071035_53503.png"> 			</h3>
+			<h4><img src="images/20160628071046_95902.png"> 
+									</h4><strong>SEVEN</strong>
+			<p>视觉设计师			 </p></dd>
+			<dd>
+			<h3 style="display: block;"><img src="images/20160628071057_30360.png"> 			</h3>
+			<h4 style="display: none;"><img src="images/20160628071106_39910.png"> 
+									</h4><strong>ANNE</strong>
+			<p>				UI/UED设计师			 </p></dd>
+			<dd>
+			<h3><img src="images/20160628071115_72564.png"> 			</h3>
+			<h4><img src="images/20160628071124_19206.png"> 
+									</h4><strong>NIKI</strong>
+			<p>品牌设计师			 </p></dd></dl></div>
+		<div class="haValue" style="width: 1903px; vertical-align: top; display: table-cell;">
+		<h2>DESIGN FOR THE REAL WORLD	 </h2>
+		<h3>我们励志于将视觉元素与设计研究相结合，将更好的视觉感受运用于商业之中。真正将美好的设计融入你我的生活。	 </h3>
+		<h4>we are committed to enriching your life with our wonderful designs, which 
+		feature visual elements and bring you better visual sensation.	 </h4>
+		<dl>
+			<dd><a href="javascript:void(0)">POSITIVE</a>		 </dd>
+			<dd><a href="javascript:void(0)">PASSIONATE</a>		 </dd>
+			<dd><a href="javascript:void(0)">PPOFESSIONAL</a>		 </dd></dl></div>
+		<div class="haServices" style="width: 1903px; vertical-align: top; display: table-cell;">
+		<ul>
+			<li>
+			<dl>
+				<dt>
+				<h4>品牌形象设计</h4>
+				<p>Brand Design</p></dt>
+				<dd>
+				<p>	LOGO设计</p>
+				<p>	品牌（企业）VI</p>
+				<p>媒体广告	</p></dd></dl></li>
+			<li>
+			<dl>
+				<dt>
+				<h4>UI设计</h4>
+				<p>UI Design</p></dt>
+				<dd>
+				<p>网页界面设计</p>
+				<p>APP界面设计</p>
+				<p>交互行为设计</p></dd></dl></li>
+			<li>
+			<dl>
+				<dt>
+				<h4>包装设计</h4>
+				<p>Package Design</p></dt>
+				<dd>
+				<p>包装视觉设计</p>
+				<p>包装结构设计</p>
+				<p>包装创意</p></dd></dl></li>
+			<li>
+			<dl>
+				<dt>
+				<h4>编排设计</h4>
+				<p>Layout Design</p></dt>
+				<dd>
+				<p>画册、单页、折页设计</p>
+				<p>杂志、书籍排版及印刷	</p>
+				<p>工艺	</p></dd></dl></li></ul>
+		<h1>我们专注于视觉设计，专为品牌或企业提供相关视觉设计服务。</h1>
+		<h2>We specialize in visual design , brand, or specifically for enterprises to 
+		provide relevant visual design services.	 </h2></div><div class="haTeam" style="width: 1903px; vertical-align: top; display: table-cell;">
+		<dl>
+			<dd>
+			<h3><img src="images/20160628070933_52563.png"> 			</h3>
+			<h4><img src="images/20160628070954_98593.png"> </h4><strong>VAN</strong>
+			<p>设计总监</p></dd>
+			<dd>
+			<h3><img src="images/20160628071009_70625.png"> 			</h3>
+			<h4><img src="images/20160628071017_58158.png"> </h4><strong>ASH</strong>
+			<p>美术指导</p></dd></dl>
+		<dl>
+			<dd>
+			<h3><img src="images/20160628071035_53503.png"> </h3>
+			<h4><img src="images/20160628071046_95902.png"> </h4><strong>SEVEN</strong>
+			<p>视觉设计师</p></dd>
+			<dd>
+			<h3><img src="images/20160628071057_30360.png"> </h3>
+			<h4><img src="images/20160628071106_39910.png"> </h4><strong>ANNE</strong>
+			<p>				UI/UED设计师			 </p></dd>
+			<dd>
+			<h3><img src="images/20160628071115_72564.png"> 			</h3>
+			<h4><img src="images/20160628071124_19206.png"> 
+									</h4><strong>NIKI</strong>
+			<p>品牌设计师			 </p></dd></dl></div></div></div><!--/bd-->            
+							 </div></div><!--客户案例-->   
+	 
+		<!--友情链接-->
+		<div class="work">
+			<h1 class="h1"><a name="work">WORK</a></h1>
+		<div class="worklist">
+			<dl>
+					<dd>
+							<a href="">
+								<img src="images/20180323203007_90108.jpg"/>
+								<h1 style="height: 0px;overflow: hidden;">
+									<strong>
+										一日书店品牌形象设计
+										<em>视觉设计 / logo设计 /品牌（企业）VI</em>
+									</strong>
+								</h1>
+							</a>
+						</dd>
+				<dd>
+					<a href="">
+						<img src="images/20180323204222_43127.jpg"/>
+						<h1 style="height: 0px;overflow: hidden;">
+							<strong>
+								今天音响官网设计
+								<em>网页界面设计</em>
+							</strong>
+						</h1>
+					</a>
+				</dd>
+				<dd class="on">
+					<a href="">
+						<img src="images/20170212201936_17234.jpg">
+						<h1 style="height: 0px;overflow: hidden;">
+							<strong>
+								青意VI设计
+								<em>视觉设计 / 品牌（企业）VI</em>
+							</strong>
+						</h1>
+					</a>
+				</dd>
+				<dd class="on">
+					<a href="">
+						<img src="images/20170602202609_46753.jpg">
+						<h1 style="height: 0px;overflow: hidden">
+							<strong>
+								Anio包装设计
+								<em>logo设计 / 品牌（企业）VI / 包装设计 /</em>
+							</strong>
+						</h1>
+					</a>
+					
+				</dd>
+				<dd class="on">
+					<a href="">
+						<img src="images/20170616153117_82653.jpg">
+						<h1 style="height: 0px;overflow: hidden;">
+							<strong>
+							玖玖官方网站设计
+							<em>视觉设计 / 网页界面设计 /</em>
+							</strong>
+						</h1>
+					</a>
+				</dd>
+				<dd>
+					<a href="">
+						<img src="images/20161215144115_21545.jpg">
+						<h1 style="height: 0px;overflow: hidden;">
+							<strong>
+								上海浦开集团品牌形象设计
+								<em>视觉设计 / 品牌（企业）VI</em>
+							</strong>
+						</h1>
+					</a>
+				</dd>
+				<dd>
+					<a href="">
+						<img src="images/20161213143119_44703.jpg">
+						<h1 style="height: 0px;overflow: hidden;">
+							<strong>
+								秀韩 LOGO设计
+								<em>logo设计 / 品牌（企业）VI /</em>
+							</strong>
+						</h1>
+					</a>
+				</dd>
+				<dd class="on">
+					<a  href="">
+						<img src="images/20161213144046_93371.jpg">
+						<h1 style="height: 0px;overflow: hidden">
+							<strong>
+								紫荆花BCG油漆概念包装
+								<em>包装设计</em>
+							</strong>
+						</h1>
+					</a>
+				</dd>
+				<dd class="on">
+					<a href="">
+						<img src="images/20170212202017_45485.jpg">
+						<h1 style="height: 0px;overflow: hidden;">
+							<strong>
+								网仓VI设计
+								<em>视觉设计 / 品牌（企业）VI</em>
+							</strong>
+						</h1>
+					</a>	
+				</dd>
+				<dd class="on">
+					<a href="">
+						<img src="images/20160630225825_61693.jpg">
+						<h1 style="height: 0px;overflow: hidden;">
+								<strong>
+									上海青年写实绘画沙龙
+									<em>网页界面设计/</em>
+								</strong>
+							</h1>
+					</a>
+				</dd>
+			</dl>
+		</div>
+		</div>
+		<div class="more">
+			<a href="">
+			<img src="images/more.jpg">
+			</a>
+		</div>
+		<div class="clients">
+			<div class="layout">
+				<img src="images/20160628045430_46046.jpg">
+				<div class="zi zii">
+					<a name="clients">CLIENTS</a>
+				</div>
+			</div>
+			<div class="zuo">
+				<div class="zuokuangjia ">
+				<img src="images/clients_icon.png">
+				</div>
+			</div>
+			<div class="you">
+				<div class="youkuangjia">
+				<img src="images/clients_icon.png">
+				</div>
+			</div>
+			<div class="waikuang">
+			<div class="zhong1">
+				<img src="images/20160628062122_69273.png">
+			</div>
+			<div class="zhong2">
+				<img src="images/20160906115540_28782.png">
+			</div>
+			<div class="zhong3">
+				<img src="images/20160628062817_13784.png">
+			</div>
+			<div class="zhong4">
+				<img src="images/20160906115246_27703.png">
+			</div>
+			<div class="zhong5">
+				<img src="images/20160628062911_97239.png">
+			</div>
+			<div class="zhong6">
+				<img src="images/20160628062925_61352.png">
+			</div>
+			<div class="zhong7">
+				<img src="images/20160628063023_14960.png">
+			</div>
+			<div class="zhong8">
+				<img src="images/20160628063037_71136.png">
+			</div>
+			<div class="zhong9">
+				<img src="images/20160628063054_65063.png">
+			</div>
+			</div>
+		</div>
+		<div class="contact">
+			<h1>CONTACT</h1>
+			<h2>E-mail:</h2>
+			<h3>yish-design@outlook.com</h3>
+			<h4>WeChat:</h4>
+			<h5>xuyifanvan</h5>
+			<h6>Address:</h6>
+			<h7>上海市嘉定区江桥万达6号楼</h7>
+			<div class="contactimg">
+			<img src="images/20160628071548_46952.jpg">
+			</div>
+			</div>
+		<div class="banquan">
+			<h1>YISH DESIGN</h1>
+			<zuo1>HOME</zuo1>
+			<zuo2>ABOUT US</zuo2>
+			<zuo3>WORK</zuo3>
+			<zuo4>CLIENTS</zuo4>
+			<zuo5>CONTACT</zuo5>
+			<xia>©2016.ALL Rights Reserved yish-design.com</xia>
+		</div>
+		</div>
+		<div class="tempWrap" style="overflow:hidden; position:relative;"><div class="tempWrap" style="overflow:hidden; position:relative;"><div class="tempWrap" style="overflow:hidden; position:relative;"><div class="bd" id="homeClientsList" style="margin: 0px; padding: 0px; width: 1751px; overflow: hidden; position: relative; transform: translate(0px, 0px) translateZ(0px); transition-duration: 200ms;"><ul style="width: 1751px; vertical-align: top; display: table-cell;"><li></ul></div></div></div></div>
+		<div id="bdList" style="display: none;">
+		<script type="text/javascript">
+		TouchSlide({slideCell:"#homeAbout",effect:"leftLoop" ,}); //首页About切换
+		aboutHead();  
+		aboutServices();
+		workAutoList();
+		window.onscroll = function(){
+		scrollMenu2();
+	}
+		</script>
 	</div>
-</div>
-asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>asdas<br>
+	</div>
 </body>
 </html> 
