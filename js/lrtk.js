@@ -283,3 +283,46 @@ $(function(){
 	domEle.downlaodMain.show();
 	liebaoBrowser.init(domEle);
 });
+// 菜单自动浮动
+function scrollMenu(){
+	var menu = document.getElementById("menu");
+    var banner = document.getElementById("banner") || document.getElementById("banner1");
+	var sheight = document.body.scrollTop || document.documentElement.scrollTop;
+	var bheight = banner.clientHeight || 100;
+	
+	if(sheight > bheight){
+	    menu.style.position = "fixed";
+	    menu.style.top = "0px";
+		menu.style.maxWidth = "1920px";
+		menu.style.height = "auto";
+    }else{
+		menu.style.position = "relative";
+	    menu.style.top = "";
+		menu.style.maxWidth = "";
+		menu.style.height = "";
+	}
+	//alert(bheight);
+
+}
+
+// 菜单自动浮动内页
+function scrollMenu2(){
+	var menu = document.getElementById("menu");
+    //var banner = document.getElementById("banner") || document.getElementById("banner1");
+	var sheight = document.body.scrollTop || document.documentElement.scrollTop;
+	var bheight = 656;
+	
+	if(sheight > bheight){
+	    menu.style.position = "fixed";
+	    menu.style.top = "0px";
+		menu.style.maxWidth = "1920px";
+		menu.style.height = "auto";
+    }else{
+		menu.style.position = "relative";
+	    menu.style.top = "";
+		menu.style.maxWidth = "";
+		menu.style.height = "";
+	}
+	//alert(bheight);
+
+}

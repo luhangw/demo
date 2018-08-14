@@ -1,0 +1,76 @@
+
+.haTeam {
+	overflow: hidden; padding-top: 86px;
+}
+.haTeam dl {
+	margin: 0px auto; text-align: center; overflow: hidden; max-width: 1300px;
+}
+.haTeam dd {
+	padding: 0px 50px; width: 110px; text-align: center; overflow: hidden; margin-bottom: 50px; display: inline-block;
+}
+.haTeam dd img {
+	width: 70%;
+}
+.haTeam dd h4 {
+	display: none;
+}
+.haTeam strong {
+	line-height: 24px; letter-spacing: 0.2rem; padding-top: 30px; font-size: 1.6rem; font-weight: bold; display: block;
+}
+.haTeam p {
+	color: rgb(164, 164, 164); line-height: 24px; letter-spacing: 0.1rem; font-size: 1.3rem;
+}
+.haValue {
+	text-align: center; overflow: hidden; padding-top: 86px;
+}
+.haValue h2 {
+	padding: 0px 0px 60px; color: rgb(162, 162, 162); line-height: 30px; font-size: 1.6rem; font-style: italic; font-weight: bold;
+}
+.haValue h3 {
+	margin: 0px auto 30px; color: rgb(164, 164, 164); line-height: 24px; font-size: 1.2rem; max-width: 360px;
+}
+.haValue h4 {
+	margin: 0px auto 80px; color: rgb(164, 164, 164); line-height: 24px; font-size: 1.2rem; max-width: 340px;
+}
+.haValue dl {
+	margin: 0px auto; text-align: center; overflow: hidden; display: block; max-width: 680px;
+}
+.haValue dd {
+	width: 30%; text-align: center; display: inline-block;
+}
+.haValue dd a {
+	border-radius: 60px; border: 2px solid rgb(204, 181, 123); border-image: none; width: 106px; height: 106px; color: rgb(204, 181, 123); line-height: 106px; display: inline-block;
+}
+.haValue dd a:hover {
+	background: rgb(204, 181, 123); color: rgb(255, 255, 255);
+}
+.haServices {
+	text-align: center; overflow: hidden; padding-top: 120px;
+}
+.haServices ul {
+	margin: 0px auto; overflow: hidden; display: block; max-width: 680px;
+}
+.haServices ul li {
+	width: 24%; text-align: center; float: left; display: inline-block;
+}
+.haServices dt {
+	border-radius: 100px; border: 2px solid rgb(204, 181, 123); border-image: none; width: 110px; height: 110px; color: rgb(204, 181, 123); line-height: 14px; display: inline-block;
+}
+.haServices dt:hover {
+	background: rgb(204, 181, 123); color: rgb(255, 255, 255);
+}
+.haServices dt h4 {
+	padding-top: 40px; font-size: 1.3rem;
+}
+.haServices dt p {
+	font-size: 1.2rem;
+}
+.haServices dd {
+	color: rgb(164, 164, 164); line-height: 24px; padding-top: 20px; font-size: 1.2rem; visibility: hidden; min-height: 150px;
+}
+.haServices h1 {
+	color: rgb(164, 164, 164); line-height: 50px; font-size: 1.3rem;
+}
+.haServices h2 {
+	margin: 0px auto; color: rgb(164, 164, 164); font-size: 1.2rem; display: block; max-width: 400px;
+}
