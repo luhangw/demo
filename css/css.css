@@ -31,4 +31,5 @@ html,body{font-size:10px; font-family:"Microsoft Yahei","微软雅黑",Tahoma,Ar
 .footer dl dd a{color:#b6b6b6; font-size:10px;text-decoration: none;}
 .footer h2{font-size:10px; line-height:30px; padding-top:30px;}
 .back{background-image: url(../images/10.jpg);height:1000px;top: 150px;position: relative;margin: 0px auto;max-width: 1050px;background-repeat: no-repeat;background-size: 1300px 1200px;}
-.photo{width: 200px;position: relative;left: 200px;top: 170px;}
+.photo{width: 900px;position: relative;left: 200px;top: 170px;}
+.biaoqian{width: 120px;height: 30px;position: relative;background-image: url(../images/4.jpg);top: 145px;margin: 0px auto;background-repeat: no-repeat;background-size: 120px 30px;}
