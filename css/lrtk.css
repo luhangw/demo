@@ -33,7 +33,7 @@ html,body{height:100%;}
 .menu h2 {display: none;}
 .menu h3 {display: none;}
 .menu dl {top: 76px; right: 60px; overflow: hidden; float: right; display: block; position: absolute;}
-.menu dd {padding-left: 30px; float: left; display: block;}
+.menu dd {padding-left: 30px; float: left; display: block;background-color:seashell;}
 .menu dd a {color: rgb(34, 34, 34); font-size: 13px; font-weight: bold;text-decoration: none;}
 .menu dd a:hover {color: rgb(136, 136, 136);}
 .homeAbout {width: 100%; color: rgb(34, 34, 34); overflow: hidden; padding-top: 60px;}
