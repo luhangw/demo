@@ -37,3 +37,4 @@ html,body{font-size:10px; font-family:"Microsoft Yahei","微软雅黑",Tahoma,Ar
 .jianjie{position: relative;width: 780px;height: 350px;background-image: url(../images/5.png);top: 208px;margin: 0px auto;background-repeat: no-repeat;background-size:820px 350px; }
 .wen{position: relative;width:450px;height: 220px;left: 260px;top: 69px;}
 .weizhi{position: relative;width: 770px;height: 300px;top: 240px;left: 150px;background-image: url(../images/6.png);background-repeat: no-repeat;background-size: 770px 300px;}
+.weizhijieshao{position: relative;width: 420px; height: 230px;top: 8px;left: 38px;}
