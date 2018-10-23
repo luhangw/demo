@@ -43,5 +43,5 @@ html,body{font-size:10px; font-family:"Microsoft Yahei","微软雅黑",Tahoma,Ar
 .biao1{position: relative;height: 100px;width: 400px;top: 45px;left: 0px;}
 .anli{position: relative;height: 200px;width: 930px;float: left;left: 10px;}
 .anlidi{position: relative;height: 70px;width: 880px;left: 30px;top: 220px;}
-.licheng{position: relative;height: 400px;width: 950px;background-image: url(../images/liback.png);background-size: 990px 400px;}
-.biao2{position: relative;height: 100px;width: 400px;top: 45px;}
+.licheng{position: relative;height: 840px;width: 950px;background-image: url(../images/liback.png);background-size: 990px 840px;}
+.biao2{position: relative;height: 100px;width: 400px;top: 80px;}
