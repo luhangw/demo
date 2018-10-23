@@ -39,5 +39,7 @@ html,body{font-size:10px; font-family:"Microsoft Yahei","微软雅黑",Tahoma,Ar
 .weizhi{position: relative;width: 770px;height: 300px;top: 240px;left: 150px;background-image: url(../images/6.png);background-repeat: no-repeat;background-size: 770px 300px;}
 .weizhijieshao{position: relative;width: 420px; height: 230px;top: 8px;left: 38px;}
 .back5{position: relative;background-image:url(../images/back5.jpg) ;height: 1200px;top: 150px;max-width: 1050px;background-repeat: no-repeat;background-size: 960px 1400px;margin: 0px auto;left: 40px;}
-.chenguo{position: relative;height: 400px;width: 920px;background-image: url(../images/7.png);background-repeat: no-repeat;background-size: 920px 400px;left: 20px;}
-.biao1{position: relative;height: 100px;width: 400px;top: 45px;left: 25px;}
+.chenguo{position: relative;height: 406px;width: 950px;background-image: url(../images/7.png);background-repeat: no-repeat;background-size: 950px 410px;left: 0px;}
+.biao1{position: relative;height: 100px;width: 400px;top: 45px;left: 0px;}
+.anli{position: relative;height: 200px;width: 930px;float: left;left: 10px;}
+.anlidi{position: relative;height: 70px;width: 880px;left: 30px;top: 220px;}
