@@ -45,3 +45,5 @@ html,body{font-size:10px; font-family:"Microsoft Yahei","微软雅黑",Tahoma,Ar
 .anlidi{position: relative;height: 70px;width: 880px;left: 30px;top: 220px;}
 .licheng{position: relative;height: 840px;width: 950px;background-image: url(../images/liback.png);background-size: 990px 840px;}
 .biao2{position: relative;height: 100px;width: 400px;top: 80px;}
+.back6{position: relative;background-image:url(../images/bg6.jpg) ;height: 1200px;top: 150px;max-width: 1050px;background-repeat: no-repeat;background-size: 960px 1400px;margin: 0px auto;left: 40px;}
+.zongzhiw{position: relative;height: 180px;width: 940px;left: 10px;top: 10px;background-image: url(../images/bg2.png);} 
